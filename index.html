@@ -1,36 +1,30 @@
 <html>
-<body>
+<head>
 <style>
-body {
-    background-color: white;
-
-}
-
-h1 { 
-    font-family: fantasy;
-    color: rgb(203, 23, 23);
-
-}
-
-p {
-    font-family: 'Segoe UI';
-    color: black;
+button {
+        background-color: darkcyan;
+        
 }
 
 </style>
+<!--Defines style following "Main-style.css"-->
+<link rel="stylesheet" href="Main-style.css">
+
+</head>
+<body>
 
 <h1>WELCOME TO MY WEBPAGE</h1>
 
 <p>This is my personal webpage in Javascript, HTML and CSS</p>
 
-<p id="demo" style="display:none">Suprise!!!!(ik ga hier een link naar volgende pagina maken)</p>
+<p id="suprise" style="display:none">Suprise!!!!(ik ga hier een link naar volgende pagina maken)</p>
 
-<button type="button" onclick="document.getElementById('demo').style.display='block'">Epic button (definetly not stolen from tutorial)</button>
+<button id="suprise-button" type="button" onclick="document.getElementById('suprise').style.display='block'">Epic button (definetly not stolen from tutorial)</button>
 
 <!--dit werkt nog niet want ik weet niet hoe ik een pic toevoeg-->
-<img id="brentpic">
+<img id="brentpic" onclick="document.getElementById('brentpic').src=''">
 
-<button onclick="document.getElementById('brentpic').src='brent.png'">Secret</button>
+<button  onclick="document.getElementById('brentpic').src='brent.png'">Secret</button>
 
 </body>
 </html> 

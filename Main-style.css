@@ -1,0 +1,18 @@
+/* Define's a basic style for the webpages */
+body {
+    background-color: rgb(36, 197, 178);
+
+}
+
+h1 { 
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+
+}
+
+p {
+    font-family: 'Segoe UI';
+    color: black;
+    
+}
